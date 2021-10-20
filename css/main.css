@@ -359,9 +359,9 @@ body {
 }
 
 .container {
-  max-width: examplepx;
-  padding-left: examplepx;
-  padding-right: examplepx;
+  max-width: 1146px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -380,5 +380,21 @@ img {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url("../fonts/LexendDeca-Regular.woff2") format("woff2"), url("../fonts/LexendDeca-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url("../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/SpaceMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 /*# sourceMappingURL=main.css.map */
